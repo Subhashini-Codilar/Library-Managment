@@ -12,8 +12,8 @@ class Insert{
 
     public function insert(){
 		$data = $_POST;
-          $connection = new DbConnection();                                   
-          $this->conn=$connection->db_connect();
+        $connection = new DbConnection();                                   
+        $this->conn=$connection->db_connect();
           $this->id = $data['id'];
           $this->book_name = $data['book_name'];
           $this->author_name = $data['author_name'];

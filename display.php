@@ -40,6 +40,7 @@
                     <td> <?php echo $rowdata['author_name']; ?></td>
                     <td> <?php echo $rowdata['published_date']; ?></td>  
                     <td> <img width=100 src="./images/<?php echo $rowdata['book_image'];?>"> </td>
+                    <td><a href="delete.php?id=<?php echo $rowdata['id']; ?>"><button>delete</button></a></td>
                     </tr>   
                 <?php }?>
             </table>
